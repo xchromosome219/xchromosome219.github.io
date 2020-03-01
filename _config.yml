@@ -21,12 +21,12 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2020
 
 # Author 配置博主信息
 author: 'Haitao'
 nickname: 'HT'
-bio: 'Biologist, Bioinformatician'
+bio: 'Biologist, Bioinformatician, Cancer Research, Infaction Disease, Unix shell, R, Python'
 avatar: '/assets/img/profile.png'
 
 # Search
@@ -45,7 +45,7 @@ mathjax: true
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+social-share-items: ['wechat', 'twitter']
 
 # theme color 主题皮肤
 theme-color: 'default'  # pink or default
