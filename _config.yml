@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: "Haitao's Blog"
+title: "HT Vvang's Blog"
 description: 'Haitao, 80s, Biologist, Bioinformatician, 很高興與你分享我對技術與生活的一些思考'
 keyword: 'HT Vvang, Biologist, Bioinformatician, Computational Biology, Cancer Research, Infaction Disease, Unix shell, R, Python'
 url: 'xchromosome219.github.io' # your host
@@ -24,7 +24,7 @@ footer:
   since: 2020
 
 # Author 配置博主信息
-author: 'Haitao'
+author: 'HT Vvang'
 nickname: 'HT'
 bio: 'Biologist, Bioinformatician, Cancer Research, Infaction Disease, Unix shell, R, Python'
 avatar: '/assets/img/about-HT-gentle.jpg'
