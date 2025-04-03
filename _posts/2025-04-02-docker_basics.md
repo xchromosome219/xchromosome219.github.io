@@ -17,8 +17,6 @@ tags:
 
 The official [Docker documentation](https://docs.docker.com/get-started/) is a good place to start. Below is a TL;DR version of what you need to work with Docker.
 
----
-
 ## Docker Terminologies
 
 Docker **images** are like virtual machine operating systems. From a Docker image, you can launch a **Docker container** (your actual virtual machine), from which you can run jobs or make customizations.
@@ -27,8 +25,6 @@ Docker **images** are like virtual machine operating systems. From a Docker imag
 - Analogy: Installing an app on your MacBook doesn't change the Mac OS for someone else.
 
 This isolation is why Docker is useful for **reproducible research**.
-
----
 
 ## Installing Docker
 
@@ -39,8 +35,6 @@ Follow installation instructions based on your OS:
 - [Linux](https://hub.docker.com/editions/community/docker-ce-server-ubuntu)
 
 > ⚠️ If you use **Windows 10 Home Edition**, check this alternative [setup guide](dockertoolboxinstallation).
-
----
 
 ## Docker Images
 
@@ -76,8 +70,6 @@ docker build -t chualabnccs/base-raw .
 
 You can use existing images from [Docker Hub](https://hub.docker.com/). Sharing your own images is possible but not recommended unless for public use.
 
----
-
 ## Start a Docker Container
 
 Example command:
@@ -96,8 +88,6 @@ Explanation:
 - `--user`: set user ID and group ID to avoid permission issues
 
 > Windows users may need to refer to [this setup](dockertoolboxinstallation).
-
----
 
 ## Customizing Containers
 
@@ -130,8 +120,6 @@ Find container ID using:
 docker ps -a
 ```
 
----
-
 ## Save or Load Docker Image
 
 ### Save Image to a File
@@ -146,8 +134,6 @@ docker save -o base-ubuntu.tar chualabnccs/base-ubuntu
 docker load -i base-ubuntu.tar
 ```
 
----
-
 ## Delete Docker Image
 
 List images:
@@ -161,10 +147,7 @@ Delete image:
 ```bash
 docker rmi [IMAGE ID]
 ```
-
 > Make sure no container is using the image.
-
----
 
 ## Docker Containers
 
@@ -200,8 +183,6 @@ Remove all stopped containers:
 docker rm $(docker ps -a -q)
 ```
 
----
-
 ## Accessing RStudio via Docker
 
 ### If Port 8787 is NOT in Use
@@ -236,8 +217,6 @@ Login credentials:
 ### If Port 8787 is Already in Use
 
 Use a different port (e.g., `-p 8888:8787`) when starting the container.
-
----
 
 ## Jupyter Notebooks in Docker
 
