@@ -8,9 +8,10 @@ author:     HT Vvang
 header-img: assets/img/2020-03-02-post_MeSH.jpg
 catalog: true
 tags:
-    - R
-    - text mining
+    - Shell
+    - Docker
 ---
+
 
 # Docker Basics
 
