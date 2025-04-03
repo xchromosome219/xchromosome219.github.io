@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      Docker
@@ -11,7 +10,6 @@ tags:
     - Shell
     - Docker
 ---
-
 
 # Docker Basics
 
